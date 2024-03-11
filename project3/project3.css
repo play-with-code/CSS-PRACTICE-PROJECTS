@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.img-1{
+    background-image: url(image1.png);
+    min-height: 100%;
+}
+.img-1
+.img-2,
+.img-3{  position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.img-2 div{
+    
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        
+        font-size: 27px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+      
+    
+}
+.img-2 span{
+    background:rgba(0, 0, 0, 0.514); 
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+  
+.textBg1,
+
+.textBg3{
+    background: #00140f94; 
+    color:#fff;
+    padding: 20px;
+  }
+  .section{
+    color: black;
+    padding: 50px 80px;
+    text-align: center;
+    background-color: rgba(250, 248, 248, 0.938);
+    
+  }
+  .section h1 ,h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  .img-2{
+    background-image: url(image2.png); 
+    min-height: 400px;
+  }
+  .img-3{
+    background-image: url(image3.png);
+    min-height: 100%;
+  }
+  
+   
